@@ -1,0 +1,225 @@
+<!--question.wxml-->
+<view class="container">
+    <view class="question-wrp">
+        <view class="question-item">
+            <view class="que-tag">
+                <text class="tag">阅读</text>
+                <text class="tag">电子书</text>
+                <text class="tag">Kindle</text>
+                <text class="tag">书籍</text>
+                <text class="tag">文学</text>
+            </view>
+            <view class="que-title">
+                资本的力量可以有多大？
+            </view>
+            <view class="que-content">
+                资本的力量可以有多大？
+            </view>
+            <view class="que-follow">
+                <view class="left">
+                    <view class="watch">
+                        <image src="http://m.qpic.cn/psb?/V13X8k4s0tRigN/lyX9IvuvEs1EljFOm7h49JQDwgqU.j7oRWNKw3f8q7M!/b/dL8AAAAAAAAA&bo=yADIAAAAAAADByI!&rf=viewer_4"></image>
+                        <text>3316</text>
+                    </view>
+                    <view class="comment">
+                        <image src="http://m.qpic.cn/psb?/V13X8k4s0tRigN/KlU5HZ8YnmTXgOc.NN3Eh4*2E4t9XZQpl6LD*qZ1ExY!/b/dL8AAAAAAAAA&bo=yADIAAAAAAADByI!&rf=viewer_4"></image>
+                        <text>27</text>
+                    </view>
+                </view>
+                <view class="right">
+                    关注
+                </view>
+            </view>
+        </view>
+        <view class="que-operate flex-wrp">
+            <view class="invite flex-item">
+                <image src="http://m.qpic.cn/psb?/V13X8k4s0tRigN/h5bJNEhC8BozKjKEeni.x4TxauIkEn.dU*xwGkUbOBw!/b/dMUAAAAAAAAA&bo=yADIAAAAAAADByI!&rf=viewer_4"></image>
+                <text>邀请回答</text>
+            </view>
+            <view class="write flex-item">
+                <image src="http://m.qpic.cn/psb?/V13X8k4s0tRigN/wqcUY4gvSqkii1yino75A.Jqq1wHQvItRz.ZUFvkkfs!/b/dEYBAAAAAAAA&bo=yADIAAAAAAADByI!&rf=viewer_4"></image>
+                <text>写回答</text>
+            </view>
+        </view>
+    </view>
+    <view class="answer-feed">
+        <view  bindtap="bindItemTap" class="feed-item">
+            <view class="feed-source">
+                <a class="" bindTap="">
+                    <view class="avatar">
+                        <image src="http://img0.imgtn.bdimg.com/it/u=1374010756,1426436318&fm=26&gp=0.jpg"></image>
+                    </view>
+                    <text>Rebecca</text>
+                </a>
+            </view>
+            <view class="feed-content">
+                <view class="answer-body">
+                    <view>
+                        <text class="answer-txt ell">在资本主导一切规则的社会：1、金融资本可以干死实体经济。2、资本可以控制政治，并像喂狗那样收买和驯服官员。3、金融资本能够通过控制金钱的流动，制造金融奴隶制，奴役一切劳动力阶层甚至制造业资本家。4、资本可以控制军队，让军队听钱的话，跟钱走。 </text>
+                    </view>
+                    <view class="answer-actions">
+                        <view class="like dot">
+                            <a>3.9K 赞同 </a>
+                        </view>
+                        <view class="comments dot">
+                            <a>254 评论 </a>
+                        </view>
+                        <view class="time">
+                            <a>2 个月前</a>
+                        </view>
+
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view  bindtap="bindItemTap" class="feed-item">
+            <view class="feed-source">
+                <a class="" bindTap="">
+                    <view class="avatar">
+                        <image src="http://b-ssl.duitang.com/uploads/item/201704/04/20170404155523_GMdv4.jpeg"></image>
+                    </view>
+                    <text>Rebecca</text>
+                </a>
+            </view>
+            <view class="feed-content">
+                <view class="answer-body">
+                    <view>
+                        <text class="answer-txt ell">"军队一律不准经商"看似是不让军队动钱, 其实是不让资本控制军队。 </text>
+                    </view>
+                    <view class="answer-actions">
+                        <view class="like dot">
+                            <a>3.9K 赞同 </a>
+                        </view>
+                        <view class="comments dot">
+                            <a>254 评论 </a>
+                        </view>
+                        <view class="time">
+                            <a>2 个月前</a>
+                        </view>
+
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view  bindtap="bindItemTap" class="feed-item">
+            <view class="feed-source">
+                <a class="" bindTap="">
+                    <view class="avatar">
+                        <image src="http://b-ssl.duitang.com/uploads/item/201511/21/20151121210409_8weK2.jpeg"></image>
+                    </view>
+                    <text>Rebecca</text>
+                </a>
+            </view>
+            <view class="feed-content">
+                <view class="answer-body">
+                    <view>
+                        <text class="answer-txt ell">1929年大萧条 ，资本主义世界把大批关乎国计民生的机械设备，生产线，技术资料卖给苏联。他们明明知道这会极大的壮大社会主义苏联的力量 ，很可能未来会要自己的命，但是他们还是卖了，因为他们没有选择。资本的力量大到了哪怕你是资本家也必须遵循资本的意志，为了资本的增值，甚至把吊死自己的绳子卖给自己的敌人。不要觉得马云，刘强东无所不能 他们不过是资本的木偶，如果有一天他们成为资本增值的挡路石，立刻就会被一脚踢飞。</text>
+                    </view>
+                    <view class="answer-actions">
+                        <view class="like dot">
+                            <a>3.9K 赞同 </a>
+                        </view>
+                        <view class="comments dot">
+                            <a>254 评论 </a>
+                        </view>
+                        <view class="time">
+                            <a>2 个月前</a>
+                        </view>
+
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view  bindtap="bindItemTap" class="feed-item">
+            <view class="feed-source">
+                <a class="" bindTap="">
+                    <view class="avatar">
+                        <image src="http://b-ssl.duitang.com/uploads/item/201503/21/20150321114038_fJyMS.jpeg"></image>
+                    </view>
+                    <text>Rebecca</text>
+                </a>
+            </view>
+            <view class="feed-content">
+                <view class="answer-body">
+                    <view>
+                        <text class="answer-txt ell">可以在一个理论上反对资本主义的国家让员工跪在地上爬行 </text>
+                    </view>
+                    <view class="answer-actions">
+                        <view class="like dot">
+                            <a>3.9K 赞同 </a>
+                        </view>
+                        <view class="comments dot">
+                            <a>254 评论 </a>
+                        </view>
+                        <view class="time">
+                            <a>2 个月前</a>
+                        </view>
+
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view  bindtap="bindItemTap" class="feed-item">
+            <view class="feed-source">
+                <a class="" bindTap="">
+                    <view class="avatar">
+                        <image src="http://b-ssl.duitang.com/uploads/item/201604/29/20160429225403_dvrsx.thumb.700_0.jpeg"></image>
+                    </view>
+                    <text>Rebecca</text>
+                </a>
+            </view>
+            <view class="feed-content">
+                <view class="answer-body">
+                    <view>
+                        <text class="answer-txt ell">七十年前的那批人，是几千年都难以凑齐的一群理想主义精英。他们中有卓越的开拓者，有优秀的军事家，有敏锐的外交者……更重要的是，他们有信仰。他们抱聚成团，共同向资本的力量宣战，他们战斗，牺牲，奉献，最终获得了成功。在那个时代，凭借着这种信仰的力量，他们甚至击退了这个世界上最强大的资本。为了不让曾经的敌人卷土重来，他们不断的优化和巩固自身队伍的纯洁性，甚至为此犯下了巨大的错误。他们发展教育，希望原本只能被牵着鼻子走的大多数能够觉醒自己的力量，他们将自己多年的战斗经验编成教材，力图让每一个人了解，思考。他们可能一度认为，在一段时间内已经彻底消失的资本，可以说是正式失败了。这些手段在一段时间内成效显著，不过很可惜，这个时间持续了不到四十年。原本已经几乎销声匿迹的资本力量卷土重来，以996为代表打响了复兴第一枪。以福报和兄弟为代表的新兴资本宛如他们一百多年的前辈一样，气势汹汹的宣布了在这片土地上的复生。你看，资本的力量多么强大，即便他们已经一败涂地，但是只要时间充分，它们依然可以无中生有的在一片土地上绽放出罪恶之花！ </text>
+                    </view>
+                    <view class="answer-actions">
+                        <view class="like dot">
+                            <a>3.9K 赞同 </a>
+                        </view>
+                        <view class="comments dot">
+                            <a>254 评论 </a>
+                        </view>
+                        <view class="time">
+                            <a>2 个月前</a>
+                        </view>
+
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view  bindtap="bindItemTap" class="feed-item">
+            <view class="feed-source">
+                <a class="" bindTap="">
+                    <view class="avatar">
+                        <image src="http://img5.imgtn.bdimg.com/it/u=3295174058,1884872095&fm=26&gp=0.jpg"></image>
+                    </view>
+                    <text>Rebecca</text>
+                </a>
+            </view>
+            <view class="feed-content">
+                <view class="answer-body">
+                    <view>
+                        <text class="answer-txt ell">曾经席卷全球的赤色风暴，一个让所有人类不分种族，性别，肤色，团结在镰刀锤子旗下，所有人抛弃相互的成见，携手共同奋斗，所有人类高举双手反抗资本主义的暴政。用鲜血和尸体堆满的巴黎公社，伟大的苏维埃社会主义加盟国，人类革命的导师马克思恩格斯。这场革命是如此疯狂，不可理喻。赤色革命宛如病毒一样侵蚀到资本主义的老巢，被资本鼓动的士兵们本是镇压革命的断头台，赤化分子居然钻入兵营，转眼间士兵们纷纷调转枪口。是赤化有魔力嘛？不，只是衣衫褴褛的士兵们，想起入伍之前占据故乡一直欺压自己的煤矿老板，农场主，镇长们。自己曾经如何努力，996却依然忍饥挨饿，饱受歧视。自己的老婆日夜纺织却仍然缺少衣物。他们衣物华丽，十指不沾阳春水，受人敬仰，或许还挺着大肚子。多才多艺，知书达理的大小姐们，都有一个共同的特点，都是一群吃人的魔鬼。是他们过于贪婪的吃人。以至于让懦夫学会了勇敢，让逃避者明白不杀死他们终究无处可逃。直到今天，赤化的首领们任然被资本控制的媒体各种羞辱，抹黑，编造谎言，杀人狂，暴君，乱伦，甚至挖掘其坟墓。他们忘记了，科学家夫妇宁愿坐上电椅都要推翻这个暴君的统治。网络上有句调侃，我疯起来连自己都打，却早已忘记，资本连绞死自己的绳索都卖。资被送到绞刑架前，大法官宣读其吃人罪过，最后即将上绞刑架的资本仍会滔滔不绝的辩论，他认为他的绞刑架绳索是最坚固耐用的，不使用他卖的绳索，资本就拒绝上绞刑架。 </text>
+                    </view>
+                    <view class="answer-actions">
+                        <view class="like dot">
+                            <a>3.9K 赞同 </a>
+                        </view>
+                        <view class="comments dot">
+                            <a>254 评论 </a>
+                        </view>
+                        <view class="time">
+                            <a>2 个月前</a>
+                        </view>
+
+                    </view>
+                </view>
+            </view>
+        </view>
+
+
+
+    </view>
+</view>
+

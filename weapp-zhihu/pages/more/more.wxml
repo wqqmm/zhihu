@@ -1,0 +1,70 @@
+
+<view class="container more">
+  <view class="user flex-wrp">
+    <view class="avatar flex-item">
+      <image class="userinfo-avatar" src="http://b-ssl.duitang.com/uploads/item/201611/13/20161113122811_5N8am.jpeg" background-size="cover"></image>
+    </view>
+    <view class="user-info flex-item">
+      <text class="userinfo-nickname">汪琪琪</text>
+      <text class="edit">查看或编辑个人主页</text>
+    </view>
+  </view>
+  <view class="my">
+    <view class="my-item flex-wrp">
+      <view class="myitem-icon flex-item" >
+        <image src="http://m.qpic.cn/psb?/V13X8k4s0tRigN/lyX9IvuvEs1EljFOm7h49JQDwgqU.j7oRWNKw3f8q7M!/b/dL8AAAAAAAAA&bo=yADIAAAAAAADByI!&rf=viewer_4"></image>
+      </view>
+      <view class="myitem-name flex-item">
+        <text>我的关注</text>
+      </view>
+    </view>
+    <view class="my-item flex-wrp">
+      <view class="myitem-icon flex-item" >
+        <image src="http://m.qpic.cn/psb?/V13X8k4s0tRigN/IXjU3WDaT7GAyb0QvPnb7uBfXipY3X2ZBg77mbM6FRA!/b/dAQBAAAAAAAA&bo=yADIAAAAAAADByI!&rf=viewer_4"></image>
+      </view>
+      <view class="myitem-name flex-item">
+        <text>我的收藏</text>
+      </view>
+    </view>
+    <view class="my-item flex-wrp">
+      <view class="myitem-icon flex-item" >
+        <image src="http://m.qpic.cn/psb?/V13X8k4s0tRigN/TjSU9eOPu5607I*YngNqQuXX4KLk.6lMfvXcYJ0U4Io!/b/dFMBAAAAAAAA&bo=yADIAAAAAAADByI!&rf=viewer_4"></image>
+      </view>
+      <view class="myitem-name flex-item">
+        <text>我的草稿</text>
+      </view>
+    </view>
+    <view class="my-item flex-wrp">
+      <view class="myitem-icon flex-item" >
+        <image src="http://m.qpic.cn/psb?/V13X8k4s0tRigN/3kNw1QVGScE7s8.7HNSy29zO3vDM9Egjgk36Cd4sKgY!/b/dDYBAAAAAAAA&bo=yADIAAAAAAADByI!&rf=viewer_4"></image>
+      </view>
+      <view class="myitem-name flex-item">
+        <text>最近浏览</text>
+      </view>
+    </view>
+    <view class="my-item flex-wrp">
+      <view class="myitem-icon flex-item" >
+        <image src="http://m.qpic.cn/psb?/V13X8k4s0tRigN/TjSU9eOPu5607I*YngNqQuXX4KLk.6lMfvXcYJ0U4Io!/b/dFMBAAAAAAAA&bo=yADIAAAAAAADByI!&rf=viewer_4"></image>
+      </view>
+      <view class="myitem-name flex-item">
+        <text>我的书架</text>
+      </view>
+    </view>
+    <view class="my-item flex-wrp">
+      <view class="myitem-icon flex-item" >
+        <image src="http://m.qpic.cn/psb?/V13X8k4s0tRigN/eSJ*wk42qQ12nHZHALdcnYQ1cXRtjqPzX3EDiC*8DXU!/b/dMMAAAAAAAAA&bo=yADIAAAAAAADByI!&rf=viewer_4"></image>
+      </view>
+      <view class="myitem-name flex-item">
+        <text>我的 Live</text>
+      </view>
+    </view>
+    <view class="my-item flex-wrp">
+      <view class="myitem-icon flex-item" >
+        <image src="http://m.qpic.cn/psb?/V13X8k4s0tRigN/8hIJASglycnYeUYt5dZcsPTdPd9j4wVoaxpsIoqiPnE!/b/dFYBAAAAAAAA&bo=yADIAAAAAAADByI!&rf=viewer_4"></image>
+      </view>
+      <view class="myitem-name flex-item">
+        <text>我的值乎</text>
+      </view>
+    </view>
+  </view>
+</view>

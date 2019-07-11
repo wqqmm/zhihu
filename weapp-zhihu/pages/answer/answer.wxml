@@ -1,0 +1,78 @@
+<!--answer.wxml-->
+<view class="container">
+    <view class="question" bindtap="toQuestion">
+        <text class="question-title">资本的力量可以有多大？</text>
+    </view>
+    <view class="answerer-wrp">
+        <view class="bg-half"></view>
+        <view class="answerer flex-wrp">
+            <view class="avatar flex-item">
+                <image src="http://b-ssl.duitang.com/uploads/item/201611/13/20161113122811_5N8am.jpeg"></image>
+            </view>
+            <view class="answerer-info flex-item">
+                <text class="answerer-name">RLEID</text>
+                <text class="answerer-des">喜欢我就关注我吧</text>
+            </view>
+            <view class="follow flex-item">
+                <text>十 关注</text>
+            </view>
+        </view>
+    </view>
+    <view class="answer-content">
+        <text>不邀自来
+
+智利很久之前，有位总统竞选了三十年才竞选成功
+
+刚上任，就愤愤于美帝对智利的剥削之中
+
+当时智利的国情大概是这样：
+
+人民高强度的工作换来微薄的薪水，微薄的薪水又去买美帝资本家的高价商品
+        </text>
+        <image src="http://m.qpic.cn/psb?/V13X8k4s0tRigN/a5Ge36PHPipyihe8DH3shvQZNMNLkNLCmSBrgcsY3G8!/b/dLYAAAAAAAAA&bo=igMcAgAAAAARB6c!&rf=viewer_4"></image>
+        <text>
+            当时智利全国的生产资料全属于星条旗的某些大型商业集团，智利市场完全被垄断
+            
+            每出现一个智利人自主创业的工厂，美子就联合打压，久而久之，智利政府和智利人民一起穷下去
+            
+            记得当时这位总统 阿连德 竞选时的演说很大一个重点就是：
+            
+            建立社会主义社会，一切生产资料国有化，拒绝一切剥削
+        </text>
+        <image src="https://pic3.zhimg.com/80/v2-d88e3d5593fe1a53e447586e6cde1f31_hd.jpg"></image>
+    </view>
+
+    <view class="answer-footer flex-wrp">
+        <view class="good flex-item">
+            <view class="good-bad">
+                <image src="../../images/good-bad.png"></image>
+            </view>
+            <view class="good-num">2.1k</view>
+        </view>
+        <view class="operation-wrp flex-item">
+            <view class="operation flex-wrp flex-tab">
+                <view class="operation-btn flex-item">
+                    <image src="../../images/flag.png"></image>
+                    <text>没有帮助</text>
+                </view>
+                <view class="operation-btn flex-item">
+                    <image src="../../images/heart2.png"></image>
+                    <text>感谢</text>
+                </view>
+                <view class="operation-btn flex-item">
+                    <image src="../../images/star2.png"></image>
+                    <text>收藏</text>
+                </view>
+                <view class="operation-btn flex-item">
+                    <image src="../../images/comment.png"></image>
+                    <text>302</text>
+                </view>
+
+            </view>
+        </view>
+
+
+
+    </view>
+</view>
+
